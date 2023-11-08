@@ -9,4 +9,4 @@ u = input("Introduzca el nombre del usuario: ")
 
 n = int(input("Introduzca un número entero: "))
 
-print(u*n)
+print(u * n)
