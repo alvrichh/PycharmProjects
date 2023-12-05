@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "imc",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_imc.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "contacts",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest tests/test_contacts.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 7
+    }
+  ]
+}
